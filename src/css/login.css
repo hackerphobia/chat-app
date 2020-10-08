@@ -1,0 +1,33 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+}
+.login-container .background-img {
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('https://previews.123rf.com/images/shopplaywood/shopplaywood1708/shopplaywood170800079/84570659-cartoon-character-cute-robot-seamless-pattern-whith-chat-bubble-outline-stroke-pictogram-vector-on-w.jpg');
+}
+.login-container .form-wrapper {
+    width: 30%;
+    height: 100%;
+}
+
+.login-container .login-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: gray;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: monospace;
+}
+.login-container #login-form {
+    padding: 0px 20px;
+}
+
+.login-container .login-form-action {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
